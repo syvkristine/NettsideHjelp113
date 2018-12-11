@@ -1,0 +1,292 @@
+* {
+
+    box-sizing: border-box;
+}
+
+
+body {
+    
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    background-color: #646464;
+   
+}
+
+/*Her starter seksjon 1 */
+.s1 { 
+
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-image: url("iconer/landskap.svg");
+    background-repeat: no-repeat;
+    background-position: top;
+
+}
+
+#bil {
+
+    position: absolute;
+    background-image: url("iconer/bil.svg");
+    background-repeat: no-repeat;
+    height: 122px;
+    width: 260px;
+    background-position: right bottom;
+    top: 542px;
+  
+}
+
+#hjul1{
+
+    position: absolute;
+    left: 22px;
+    bottom: 0;
+
+}
+
+#hjul2{
+
+    position: absolute;
+    left: 198px;
+    bottom: 0;
+}
+
+#røyk {
+
+    position: absolute;
+    bottom: 3px;
+    left: -29px;
+    opacity: 0.5;
+    animation: pulsere .2s infinite;
+
+}
+
+@keyframes pulsere {
+
+    0% {transform: opacity(.3) rotate(-2deg) translateX(-1px);}
+    10% {transform: scale(1) rotate(2deg) translateX(1px);}
+    20% {transform: opacity(.3) rotate(-2deg) translateX(-1px);}
+    30% {transform: scale(1) rotate(2deg) translateX(1px);}
+    40% {transform: opacity(.3) rotate(-2deg) translateX(-1px);}
+    50% {transform: scale(1) rotate(2deg) translateX(1px);}
+    60% {transform: opacity(.3) rotate(-2deg) translateX(-1px);}
+    70% {transform: scale(1) rotate(2deg) translateX(1px);}
+    80% {transform: opacity(.3) rotate(-2deg) translateX(-1px);}
+    90% {transform: scale(1) rotate(2deg) translateX(1px);}
+    100% {transform: opacity(.3)rotate(-2deg) translateX(-1px);}
+
+}
+
+.storsky {
+    
+
+    height: 150px;
+    width: 250px;
+    position: relative;
+    top: 10rem;
+    opacity: 1;
+    animation: slideleft 130s infinite;
+
+}
+
+@keyframes slideleft {
+
+    0% { transform: translateX(0rem);
+            opacity: 0.5;
+       }
+
+    100% { transform: translateX(70rem);
+          opacity: 1;
+        }
+
+}
+
+#litensky {
+
+    height: 100px;
+    width: 200px;
+    position: relative;
+    top: 15rem;
+    opacity: 0.5;
+    animation: slideright 100s infinite;
+    
+}
+
+@keyframes slideright {
+
+    0% { transform: translateX(50rem);
+            opacity: 0;
+       }
+
+    100% { transform: translateX(-10rem);
+          opacity: 1;
+        }
+        
+}
+
+/*Her begynner section 2*/
+#section2 {
+    
+    width: 100vw;
+    height: 320px;
+
+}
+
+#overskrift {
+
+    font-weight: 200;
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 3rem;
+    margin: auto;
+    color: #F9F7F5;
+    opacity: 0;
+    transition: 5s;
+
+}
+
+#spørsmål {
+
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    font-size: 3.3rem;
+    color: #F9F7F5;
+    margin: auto;
+    letter-spacing: .3rem;
+    padding-top: 1rem;
+    opacity: 0;
+    transition: 5s;
+
+}
+
+/*Her begynner section 3*/
+.s3 {
+
+    background-color: #F9F7F5;
+    padding-top: 12rem;
+    padding-bottom: 8rem;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    grid-gap: 8rem;
+    
+}
+
+.tekstboks {
+
+    width: 450px;
+
+}
+
+.tekstboks > h1 {
+
+    font-size: 2rem;
+    color: #6E1F1F;
+   
+}
+
+.tekstboks > p {
+
+    font-size: 1.5rem;
+    color: #646464;
+    font-weight: 300;
+    line-height: 180%;
+    text-align: justify;
+    padding-top: 1rem;
+
+}
+
+.mackup {
+
+    width: 280px;
+
+}
+
+/*Her begynner section 4*/
+.s4 {
+
+    background-color: #F9F7F5;
+    padding-bottom: 23rem;
+    padding-top: 8rem;
+    overflow: hidden;
+
+}
+
+.s4 .plasseringVedSinaPuls {
+
+    width: 535px;
+    margin-left: 37rem;
+    padding-top: 7rem;
+    display: inline-block;
+    position: absolute;
+    z-index: 4;
+
+}
+
+.s4 .plasseringVedSinaPuls h1 {
+
+    font-size: 2rem;
+    color: #6E1F1F;
+    padding-bottom: 2rem;
+
+}
+
+.s4 .plasseringVedSinaPuls p {
+
+    font-size: 1.5rem;
+    color: #646464;
+    font-weight: 300;
+    
+}
+
+#videoPuls {
+
+    position: relative;
+    z-index: 1;
+
+}
+
+/*Her begynner section 5*/
+.s5 {
+    
+    padding-top: 10rem;
+    height: 500px;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    grid-gap: 10rem;
+
+}
+
+.s5 h1 {
+
+    font-size: 2.6rem;
+    color: #F9F7F5;
+    font-weight: 500;
+    max-width: 500px;
+    letter-spacing: .1rem;
+
+}
+
+.s5 span {
+
+    font-family: 'Indie Flower', cursive;
+    color: #6E1F1F;
+
+}
+
+.s5 .wrapperDowload {
+
+    padding: 3.22rem 0 0 8.5rem; 
+}
+
+.s5 .wrapperDowload #venstrestilt {
+
+    padding-right: 1rem;
+}
+
+
+
+
