@@ -4,8 +4,8 @@ const hjul1 = document.getElementById("hjul1");
 const hjul2 = document.getElementById("hjul2");
 const video = document.getElementById("videoPuls");
 
-const overskrift = document.getElementById("overskrift");
-const spørsmol = document.getElementById("spørsmål");
+//const overskrift = document.getElementById("overskrift");
+//const spørsmol = document.getElementById("spørsmål"); 
 
 const rok = document.getElementById("røyk");
 
@@ -54,24 +54,17 @@ function animerSiden (){
     if(scrollY >= 100) {
 
         bil.style.backgroundImage = 'url("iconer/bilkjæs.svg")';
-        hjul1.style.left = "18px";
+        hjul1.style.left = "19px";
         hjul2.style.left = "192px";
-        overskrift.style.opacity = "1";
         røyk.style.opacity = "0";
 
 
     }else {
 
         bil.style.backgroundImage = 'url("iconer/bil.svg")';
-        hjul1.style.left = "22px";
+        hjul1.style.left = "24px";
         hjul2.style.left = "198px";
-       røyk.style.opacity = ".5";
-
-    }
-
-    if(scrollY >= 250) {
-
-        spørsmol.style.opacity = "1";
+        røyk.style.opacity = ".5";
 
     }
 
