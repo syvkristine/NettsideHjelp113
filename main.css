@@ -103,12 +103,18 @@ body {
 
 @keyframes slide1 {
 
-    0% { transform: translateX(50px);
-            opacity: 0;
+    0% { 
+        transform: translateX(50px);
+        opacity: 0;
        }
 
-    100% { transform: translateX(50px);
-          opacity: 0.5;
+    50% { 
+        opacity: 0.5;
+        }
+
+    100% { 
+        transform: translateX(50px);
+        opacity: 0;
         }
         
 }
@@ -126,12 +132,18 @@ body {
 
 @keyframes slide2 {
 
-    0% { transform: translateX(5px);
-            opacity: 0;
+    0% { 
+        transform: translateX(50px);
+        opacity: 0;
        }
 
-    100% { transform: translateX(50px);
-          opacity: 0.5;
+    50% { 
+        opacity: 0.5;
+        }
+
+    100% { 
+        transform: translateX(50px);
+        opacity: 0;
         }
         
 }
@@ -149,12 +161,18 @@ body {
 
 @keyframes slide3 {
 
-    0% { transform: translateX(10px);
-            opacity: 0;
+    0% { 
+        transform: translateX(50px);
+        opacity: 0;
        }
 
-    100% { transform: translateX(50px);
-          opacity: 0.5;
+    50% { 
+        opacity: 0.5;
+        }
+
+    100% { 
+        transform: translateX(50px);
+        opacity: 0;
         }
         
 }
@@ -172,12 +190,18 @@ body {
 
 @keyframes slide4 {
 
-    0% { transform: translateX(800px);
-            opacity: 0;
+    0% { 
+        transform: translateX(50px);
+        opacity: 0;
        }
 
-    100% { transform: translateX(50px);
-          opacity: 0.5;
+    50% { 
+        opacity: 0.5;
+        }
+
+    100% { 
+        transform: translateX(50px);
+        opacity: 0;
         }
         
 }
@@ -195,12 +219,18 @@ body {
 
 @keyframes slide5 {
 
-    0% { transform: translateX(500px);
-            opacity: 0;
+    0% { 
+        transform: translateX(50px);
+        opacity: 0;
        }
 
-    100% { transform: translateX(0rem);
-          opacity: 0.5;
+    50% { 
+        opacity: 0.5;
+        }
+
+    100% { 
+        transform: translateX(50px);
+        opacity: 0;
         }
         
 }
@@ -218,12 +248,18 @@ body {
 
 @keyframes slide6 {
 
-    0% { transform: translateX(0);
-            opacity: 0;
+    0% { 
+        transform: translateX(50px);
+        opacity: 0;
        }
 
-    100% { transform: translateX(50px);
-          opacity: 0.5;
+    50% { 
+        opacity: 0.5;
+        }
+
+    100% { 
+        transform: translateX(50px);
+        opacity: 0;
         }
         
 }
@@ -241,12 +277,18 @@ body {
 
 @keyframes slide7 {
 
-    0% { transform: translateX(0);
-            opacity: 0;
+    0% { 
+        transform: translateX(50px);
+        opacity: 0;
        }
 
-    100% { transform: translateX(50px);
-          opacity: 0.5;
+    50% { 
+        opacity: 0.5;
+        }
+
+    100% { 
+        transform: translateX(50px);
+        opacity: 0;
         }
         
 }
@@ -264,12 +306,18 @@ body {
 
 @keyframes slide8 {
 
-    0% { transform: translateX(0);
-            opacity: 0;
+    0% { 
+        transform: translateX(50px);
+        opacity: 0;
        }
 
-    100% { transform: translateX(70px);
-          opacity: 0.5;
+    50% { 
+        opacity: 0.5;
+        }
+
+    100% { 
+        transform: translateX(50px);
+        opacity: 0;
         }
         
 }
@@ -287,12 +335,18 @@ body {
 
 @keyframes slide9 {
 
-    0% { transform: translateX(10px);
-            opacity: 0;
+    0% { 
+        transform: translateX(50px);
+        opacity: 0;
        }
 
-    100% { transform: translateX(50px);
-          opacity: 0.5;
+    50% { 
+        opacity: 0.5;
+        }
+
+    100% { 
+        transform: translateX(50px);
+        opacity: 0;
         }
         
 }
@@ -310,12 +364,18 @@ body {
 
 @keyframes slide10 {
 
-    0% { transform: translateX(50px);
-            opacity: 0;
+       0% { 
+        transform: translateX(50px);
+        opacity: 0;
        }
 
-    100% { transform: translateX(10px);
-          opacity: 0.5;
+    50% { 
+        opacity: 0.5;
+        }
+
+    100% { 
+        transform: translateX(50px);
+        opacity: 0;
         }
         
 }
@@ -422,7 +482,7 @@ body {
     justify-content: center;
     grid-gap: 10rem;
     position: absolute;
-    top:  173rem;
+    top: 179rem;
     width: 100%;
 
 }
@@ -457,8 +517,6 @@ body {
     padding-right: 1rem;
 }
 
-
-
 /*Her begynner section 6*/
 #videoPuls {
 
@@ -472,7 +530,7 @@ body {
 
     padding-top: 7rem;
     text-align: center;
-    padding-bottom: 10rem;
+    padding-bottom: 8rem;
 
 }
 
@@ -489,6 +547,3 @@ body {
     font-weight: 300;
     
 }
-
-
-

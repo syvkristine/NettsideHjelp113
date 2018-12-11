@@ -25,7 +25,7 @@ const snurrKeyframes = [
 
 const driveSettings = {
     
-    duration: 10000,
+    duration: 40000,
     iterations: Infinity,
 
 };
@@ -42,7 +42,7 @@ video.playbackRate = 1;
 
 function animerSiden (){
 
-    if (scrollY > 0 && scrollY < 100) {
+    if (scrollY > 0 && scrollY <= 398) {
 
         drive.currentTime = scrollY * 100;
         snurrHjul1.currentTime = scrollY * 100;
@@ -51,7 +51,7 @@ function animerSiden (){
 
     }
 
-    if(scrollY >= 100) {
+    if(scrollY >= 398) {
 
         bil.style.backgroundImage = 'url("iconer/bilkjæs.svg")';
         hjul1.style.left = "19px";
