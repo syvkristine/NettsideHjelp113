@@ -92,20 +92,20 @@ body {
 
 .sky1 {
     
-    width: 180px;
-    position: relative;
-    top: 2rem;
+    width: 140px;
+    position: absolute;
+    top: 5rem;
     /*margin-left: 10rem;*/
     opacity: 0.5;
-    animation: slide1 180s infinite;
+    animation: slide1 300s infinite;
 
 }
 
 @keyframes slide1 {
 
     0% { 
-        transform: translateX(50px);
-        opacity: 0;
+        transform: translateX(10px);
+        opacity: 0.3;
        }
 
     50% { 
@@ -113,7 +113,7 @@ body {
         }
 
     100% { 
-        transform: translateX(50px);
+        transform: translateX(1100px);
         opacity: 0;
         }
         
@@ -121,20 +121,20 @@ body {
 
 .sky2 {
 
-    width: 180px;
-    position: relative;
-    top: 8rem;
+    width: 140px;
+    position: absolute;
+    top: 10rem;
     /*margin-left: 20rem;*/
     opacity: 0.5;
-    animation: slide2 130s infinite;
+    animation: slide2 3000s infinite;
 
 }
 
 @keyframes slide2 {
 
     0% { 
-        transform: translateX(50px);
-        opacity: 0;
+        transform: translateX(400px);
+        opacity: 0.3;
        }
 
     50% { 
@@ -142,7 +142,7 @@ body {
         }
 
     100% { 
-        transform: translateX(50px);
+        transform: translateX(1000px);
         opacity: 0;
         }
         
@@ -150,20 +150,20 @@ body {
 
 .sky3 {
 
-    width: 180px;
-    position: relative;
-    top: 3rem;
+    width: 140px;
+    position: absolute;
+    top: 4rem;
     /*margin-left: 15rem;*/
     opacity: 0.5;
-    animation: slide3 100s infinite;
+    animation: slide3 200s infinite;
 
 }
 
 @keyframes slide3 {
 
     0% { 
-        transform: translateX(50px);
-        opacity: 0;
+        transform: translateX(900px);
+        opacity: 0.3;
        }
 
     50% { 
@@ -171,7 +171,7 @@ body {
         }
 
     100% { 
-        transform: translateX(50px);
+        transform: translateX(300px);
         opacity: 0;
         }
         
@@ -179,20 +179,20 @@ body {
 
 .sky4 {
 
-    width: 80px;
-    position: relative;
-    top: 15rem;
+    width: 140px;
+    position: absolute;
+    top: 13rem;
     /*margin-left: 4rem;*/
     opacity: 0.5;
-    animation: slide4 100s infinite;
+    animation: slide4 500s infinite;
     
 }
 
 @keyframes slide4 {
 
     0% { 
-        transform: translateX(50px);
-        opacity: 0;
+        transform: translateX(1200px);
+        opacity: 0.3;
        }
 
     50% { 
@@ -200,7 +200,7 @@ body {
         }
 
     100% { 
-        transform: translateX(50px);
+        transform: translateX(200px);
         opacity: 0;
         }
         
@@ -209,19 +209,19 @@ body {
 .sky5 {
 
     width: 80px;
-    position: relative;
-    top: 10rem;
+    position: absolute;
+    top: 20rem;
     /*margin-left: 4rem;*/
     opacity: 0.5;
-    animation: slide5 100s infinite;
+    animation: slide5 300s infinite;
     
 }
 
 @keyframes slide5 {
 
     0% { 
-        transform: translateX(50px);
-        opacity: 0;
+        transform: translateX(200px);
+        opacity: 0.3;
        }
 
     50% { 
@@ -229,7 +229,7 @@ body {
         }
 
     100% { 
-        transform: translateX(50px);
+        transform: translateX(1000px);
         opacity: 0;
         }
         
@@ -238,19 +238,19 @@ body {
 .sky6 {
 
     width: 80px;
-    position: relative;
-    top: 14rem;
+    position: absolute;
+    top: 23rem;
    /* margin-left: 14rem;*/
     opacity: 0.5;
-    animation: slide6 100s infinite;
+    animation: slide6 300s infinite;
     
 }
 
 @keyframes slide6 {
 
     0% { 
-        transform: translateX(50px);
-        opacity: 0;
+        transform: translateX(600px);
+        opacity: 0.3;
        }
 
     50% { 
@@ -267,19 +267,19 @@ body {
 .sky7 {
 
     width: 80px;
-    position: relative;
-    top: 10rem;
+    position: absolute;
+    top: 17rem;
     /*margin-left: 20rem;*/
     opacity: 0.5;
-    animation: slide7 100s infinite;
+    animation: slide7 200s infinite;
     
 }
 
 @keyframes slide7 {
 
     0% { 
-        transform: translateX(50px);
-        opacity: 0;
+        transform: translateX(800px);
+        opacity: 0.3;
        }
 
     50% { 
@@ -295,20 +295,20 @@ body {
 
 .sky8 {
 
-    width: 50px;
-    position: relative;
-    top: 17rem;
+    width: 80px;
+    position: absolute;
+    top: 22rem;
     /*margin-left: 14rem;*/
     opacity: 0.5;
-    animation: slide8 100s infinite;
+    animation: slide8 300s infinite;
     
 }
 
 @keyframes slide8 {
 
     0% { 
-        transform: translateX(50px);
-        opacity: 0;
+        transform: translateX(1100px);
+        opacity: 0.3;
        }
 
     50% { 
@@ -325,8 +325,8 @@ body {
 .sky9 {
 
     width: 50px;
-    position: relative;
-    top: 18rem;
+    position: absolute;
+    top: 26rem;
     /*margin-left: 4rem;*/
     opacity: 0.5;
     animation: slide9 100s infinite;
@@ -336,8 +336,8 @@ body {
 @keyframes slide9 {
 
     0% { 
-        transform: translateX(50px);
-        opacity: 0;
+        transform: translateX(100px);
+        opacity: 0.3;
        }
 
     50% { 
@@ -354,8 +354,8 @@ body {
 .sky10 {
 
     width: 50px;
-    position: relative;
-    top: 18rem;
+    position: absolute;
+    top: 30rem;
     /*margin-left: 14rem;*/
     opacity: 0.5;
     animation: slide10 100s infinite;
@@ -365,8 +365,8 @@ body {
 @keyframes slide10 {
 
        0% { 
-        transform: translateX(50px);
-        opacity: 0;
+        transform: translateX(500px);
+        opacity: 0.3;
        }
 
     50% { 
@@ -374,7 +374,7 @@ body {
         }
 
     100% { 
-        transform: translateX(50px);
+        transform: translateX(700px);
         opacity: 0;
         }
         
@@ -482,7 +482,7 @@ body {
     justify-content: center;
     grid-gap: 10rem;
     position: absolute;
-    top: 179rem;
+    top: 185rem;
     width: 100%;
 
 }
@@ -491,6 +491,8 @@ body {
 
     font-size: 1.8rem;
     color: #F9F7F5;
+    padding-left: 1rem;
+    margin-bottom: 0;
     
 
 }
@@ -499,6 +501,8 @@ body {
     font-size: 1.3rem;
     color: #F9F7F5;
     font-weight: 300;
+    padding-left: 1rem;
+    margin: .2rem;
 
 }
 
@@ -512,12 +516,49 @@ body {
     padding-top: 3rem;
 }
 
-.s5 .wrapperDowload #venstrestilt {
+.s5 a {
 
-    padding-right: 1rem;
+    text-decoration: none;
 }
 
+.appstore {
+
+    padding: 1rem;
+    transition: 1.5s;
+    border-radius: 20px;
+    margin-left: 1rem;
+    
+
+}
+
+.googleplay {
+
+    padding: 1rem;
+    transition: 1.5s;
+    border-radius: 20px;
+
+} 
+
+.appstore:hover {
+
+    background-color: rgba(37, 37, 37, 0.301);
+    
+}
+
+.googleplay:hover {
+
+    background-color: rgba(37, 37, 37, 0.301);
+   
+}
+
+
 /*Her begynner section 6*/
+.s6 {
+
+    padding-top: 7rem;
+
+}
+
 #videoPuls {
 
     position: relative;
